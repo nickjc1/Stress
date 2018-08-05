@@ -1,14 +1,15 @@
 //
-//  VerticalStripLoadViewController.swift
+//  CircularAreaLoadViewController.swift
 //  Stress
 //
-//  Created by Chao Jiang on 8/4/18.
+//  Created by Chao Jiang on 8/5/18.
 //  Copyright © 2018 nickjc1. All rights reserved.
 //
 
 import UIKit
 
-class VerticalStripLoadViewController: UIViewController {
+class CircularAreaLoadViewController: UIViewController {
+
     @IBOutlet var textFields: [UITextField]!
     @IBOutlet weak var resultTextField: UITextField!
     @IBOutlet weak var submitButton: UIButton!
@@ -18,15 +19,17 @@ class VerticalStripLoadViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         for textField in textFields {
             textField.delegate = self
         }
-        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard)))
         
         var shadow: Shadow? = Shadow()
         shadow?.makingShadow(to: viewOfImage)
         shadow?.makingShadow(to: viewOfInputSet)
         shadow = nil
+        
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard)))
     }
     
     @objc func dismissKeyboard() {
@@ -37,6 +40,21 @@ class VerticalStripLoadViewController: UIViewController {
         }
     }
     
+    
+    @IBAction func submitButtonPressed(_ sender: UIButton) {
+        var stressFunctions: Stress? = Stress()
+        
+        guard let q = Double(textFields[0].text!), let r = Double(textFields[1].text!), let z = Double(textFields[2].text!) else {
+            return
+        }
+        guard let result = stressFunctions?.circularAreaLoad(q: q, r: r, z: z) else {
+            return
+        }
+        resultTextField.text = String(result)
+        
+        stressFunctions = nil
+    }
+    
     @IBAction func resetButtonPressed(_ sender: UIButton) {
         for textField in textFields {
             textField.text = ""
@@ -44,31 +62,18 @@ class VerticalStripLoadViewController: UIViewController {
         resultTextField.text = ""
         submitButton.isEnabled = false
     }
-    
-    @IBAction func submitButtonPressed(_ sender: UIButton) {
-        
-        var stressFunctions: Stress? = Stress()
-        guard let q = Double(textFields[0].text!), let x = Double(textFields[1].text!), let z = Double(textFields[2].text!), let B = Double(textFields[3].text!) else {
-            return
+}
+
+extension CircularAreaLoadViewController: UITextFieldDelegate {
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        var canEnableSubmitbutton = true
+        for textField in textFields {
+            canEnableSubmitbutton = canEnableSubmitbutton && (!(textField.text?.isEmpty)!)
         }
-        guard let result = stressFunctions?.verticalStripLoad(q: q, x: x, z: z, B: B) else {
-            return
-        }
-        resultTextField.text = String(result)
-        
-        stressFunctions = nil
+        submitButton.isEnabled = canEnableSubmitbutton
     }
 }
 
-extension VerticalStripLoadViewController: UITextFieldDelegate {
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        var canEnableSubmitButton = true
-        for textField in textFields {
-            canEnableSubmitButton = canEnableSubmitButton && (textField.text != "")
-        }
-        submitButton.isEnabled = canEnableSubmitButton
-    }
-}
 
 
 

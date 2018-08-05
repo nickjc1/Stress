@@ -14,6 +14,8 @@
 		E529738021160A7C00F0AB64 /* LineLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */; };
 		E5603E4F21174ABC00FF84AA /* ShadowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5603E4E21174ABC00FF84AA /* ShadowController.swift */; };
 		E5603E512117764500FF84AA /* EmbankmentLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5603E502117764500FF84AA /* EmbankmentLoadViewController.swift */; };
+		E57E744021178D1A004CF685 /* CircularAreaLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57E743F21178D1A004CF685 /* CircularAreaLoadViewController.swift */; };
+		E57E74422117964F004CF685 /* RectangularlyCornerLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57E74412117964F004CF685 /* RectangularlyCornerLoadViewController.swift */; };
 		E5CDCF152112926500984D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CDCF142112926500984D39 /* Main.storyboard */; };
 		E5CDCF17211292E400984D39 /* StressFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CDCF16211292E400984D39 /* StressFunctions.swift */; };
 		E5CEBC6721163AD600B8CC90 /* VerticalStripLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */; };
@@ -31,6 +33,8 @@
 		E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLoadViewController.swift; sourceTree = "<group>"; };
 		E5603E4E21174ABC00FF84AA /* ShadowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowController.swift; sourceTree = "<group>"; };
 		E5603E502117764500FF84AA /* EmbankmentLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbankmentLoadViewController.swift; sourceTree = "<group>"; };
+		E57E743F21178D1A004CF685 /* CircularAreaLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularAreaLoadViewController.swift; sourceTree = "<group>"; };
+		E57E74412117964F004CF685 /* RectangularlyCornerLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularlyCornerLoadViewController.swift; sourceTree = "<group>"; };
 		E5CDCF142112926500984D39 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E5CDCF16211292E400984D39 /* StressFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressFunctions.swift; sourceTree = "<group>"; };
 		E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStripLoadViewController.swift; sourceTree = "<group>"; };
@@ -93,9 +97,10 @@
 				DF79D2AA20FF8067007EB806 /* AppDelegate.swift */,
 				E529737E21160A5500F0AB64 /* ViewController */,
 				E5CDCF16211292E400984D39 /* StressFunctions.swift */,
+				E57E743E21178954004CF685 /* images */,
 				E5CDCF142112926500984D39 /* Main.storyboard */,
-				DF79D2B320FF8069007EB806 /* Assets.xcassets */,
 				DF79D2B520FF8069007EB806 /* LaunchScreen.storyboard */,
+				DF79D2B320FF8069007EB806 /* Assets.xcassets */,
 				DF79D2B820FF8069007EB806 /* Info.plist */,
 			);
 			path = Stress;
@@ -109,9 +114,18 @@
 				E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */,
 				E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */,
 				E5603E502117764500FF84AA /* EmbankmentLoadViewController.swift */,
+				E57E743F21178D1A004CF685 /* CircularAreaLoadViewController.swift */,
+				E57E74412117964F004CF685 /* RectangularlyCornerLoadViewController.swift */,
 				E5603E4E21174ABC00FF84AA /* ShadowController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E57E743E21178954004CF685 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,10 +242,12 @@
 			files = (
 				E5D827D32113FFEF00E8C6F7 /* PointLoadViewController.swift in Sources */,
 				DF79D2AB20FF8067007EB806 /* AppDelegate.swift in Sources */,
+				E57E744021178D1A004CF685 /* CircularAreaLoadViewController.swift in Sources */,
 				E5CDCF17211292E400984D39 /* StressFunctions.swift in Sources */,
 				E5CFAA5121156B4600030213 /* MainViewController.swift in Sources */,
 				E529738021160A7C00F0AB64 /* LineLoadViewController.swift in Sources */,
 				E5CEBC6721163AD600B8CC90 /* VerticalStripLoadViewController.swift in Sources */,
+				E57E74422117964F004CF685 /* RectangularlyCornerLoadViewController.swift in Sources */,
 				E5603E512117764500FF84AA /* EmbankmentLoadViewController.swift in Sources */,
 				E5603E4F21174ABC00FF84AA /* ShadowController.swift in Sources */,
 			);

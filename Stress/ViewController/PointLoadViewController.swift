@@ -51,10 +51,9 @@ class PointLoadViewController: UIViewController {
     @IBAction func submitPressed(_ sender: UIButton) {
         var stressFuncCollection: Stress? = Stress()
         
-        let q = Double(textFields[0].text!)!
-        let x = Double(textFields[1].text!)!
-        let y = Double(textFields[2].text!)!
-        let z = Double(textFields[3].text!)!
+        guard let q = Double(textFields[0].text!), let x = Double(textFields[1].text!), let y = Double(textFields[2].text!), let z = Double(textFields[3].text!) else {
+            return
+        }
         guard let result = stressFuncCollection?.pointLoad(q: q, x: x, y: y, z: z) else {
             return
         }

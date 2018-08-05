@@ -49,14 +49,14 @@ class LineLoadViewController: UIViewController {
     @IBAction func submitButtonPressed(_ sender: UIButton) {
         var stressFunctions: Stress? = Stress()
         
-        let q = Double(textFields[0].text!)!
-        let x = Double(textFields[1].text!)!
-        let z = Double(textFields[2].text!)!
-        
+        guard let q = Double(textFields[0].text!), let x = Double(textFields[1].text!), let z = Double(textFields[2].text!) else {
+            return
+        }
         guard let result = stressFunctions?.lineLoad(q: q, x: x, z: z) else {
             return
         }
         resultTextField.text = String(result)
+        
         stressFunctions = nil
     }
     
