@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B23CBBCF80B8C6BC7D838DF5A4D2B728"
+               BlueprintIdentifier = "42FFEFD5CED8517FF9D56C3BDB974AE2"
                BuildableName = "Pods_Stress.framework"
                BlueprintName = "Pods-Stress"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B23CBBCF80B8C6BC7D838DF5A4D2B728"
+            BlueprintIdentifier = "42FFEFD5CED8517FF9D56C3BDB974AE2"
             BuildableName = "Pods_Stress.framework"
             BlueprintName = "Pods-Stress"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -6,4 +6,5 @@ target 'Stress' do
   use_frameworks!
 
   # Pods for Stress
+pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 end

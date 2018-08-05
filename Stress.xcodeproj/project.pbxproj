@@ -11,8 +11,14 @@
 		DF79D2AB20FF8067007EB806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79D2AA20FF8067007EB806 /* AppDelegate.swift */; };
 		DF79D2B420FF8069007EB806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF79D2B320FF8069007EB806 /* Assets.xcassets */; };
 		DF79D2B720FF8069007EB806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF79D2B520FF8069007EB806 /* LaunchScreen.storyboard */; };
+		E529738021160A7C00F0AB64 /* LineLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */; };
+		E5603E4F21174ABC00FF84AA /* ShadowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5603E4E21174ABC00FF84AA /* ShadowController.swift */; };
+		E5603E512117764500FF84AA /* EmbankmentLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5603E502117764500FF84AA /* EmbankmentLoadViewController.swift */; };
 		E5CDCF152112926500984D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CDCF142112926500984D39 /* Main.storyboard */; };
 		E5CDCF17211292E400984D39 /* StressFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CDCF16211292E400984D39 /* StressFunctions.swift */; };
+		E5CEBC6721163AD600B8CC90 /* VerticalStripLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */; };
+		E5CFAA5121156B4600030213 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CFAA5021156B4600030213 /* MainViewController.swift */; };
+		E5D827D32113FFEF00E8C6F7 /* PointLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D827D22113FFEF00E8C6F7 /* PointLoadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +28,14 @@
 		DF79D2B320FF8069007EB806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF79D2B620FF8069007EB806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF79D2B820FF8069007EB806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLoadViewController.swift; sourceTree = "<group>"; };
+		E5603E4E21174ABC00FF84AA /* ShadowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowController.swift; sourceTree = "<group>"; };
+		E5603E502117764500FF84AA /* EmbankmentLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbankmentLoadViewController.swift; sourceTree = "<group>"; };
 		E5CDCF142112926500984D39 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E5CDCF16211292E400984D39 /* StressFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressFunctions.swift; sourceTree = "<group>"; };
+		E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStripLoadViewController.swift; sourceTree = "<group>"; };
+		E5CFAA5021156B4600030213 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E5D827D22113FFEF00E8C6F7 /* PointLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointLoadViewController.swift; sourceTree = "<group>"; };
 		F7C3C2AD4B4C38A2673F258A /* Pods_Stress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEAD71F58896EA4E5D3B7B6 /* Pods-Stress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,13 +91,27 @@
 			isa = PBXGroup;
 			children = (
 				DF79D2AA20FF8067007EB806 /* AppDelegate.swift */,
+				E529737E21160A5500F0AB64 /* ViewController */,
 				E5CDCF16211292E400984D39 /* StressFunctions.swift */,
+				E5CDCF142112926500984D39 /* Main.storyboard */,
 				DF79D2B320FF8069007EB806 /* Assets.xcassets */,
 				DF79D2B520FF8069007EB806 /* LaunchScreen.storyboard */,
 				DF79D2B820FF8069007EB806 /* Info.plist */,
-				E5CDCF142112926500984D39 /* Main.storyboard */,
 			);
 			path = Stress;
+			sourceTree = "<group>";
+		};
+		E529737E21160A5500F0AB64 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E5CFAA5021156B4600030213 /* MainViewController.swift */,
+				E5D827D22113FFEF00E8C6F7 /* PointLoadViewController.swift */,
+				E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */,
+				E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */,
+				E5603E502117764500FF84AA /* EmbankmentLoadViewController.swift */,
+				E5603E4E21174ABC00FF84AA /* ShadowController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +125,7 @@
 				DF79D2A320FF8067007EB806 /* Sources */,
 				DF79D2A420FF8067007EB806 /* Frameworks */,
 				DF79D2A520FF8067007EB806 /* Resources */,
+				8C6759B6A4DAE503B95F9B5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,6 +201,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8C6759B6A4DAE503B95F9B5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stress/Pods-Stress-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stress/Pods-Stress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -181,8 +226,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D827D32113FFEF00E8C6F7 /* PointLoadViewController.swift in Sources */,
 				DF79D2AB20FF8067007EB806 /* AppDelegate.swift in Sources */,
 				E5CDCF17211292E400984D39 /* StressFunctions.swift in Sources */,
+				E5CFAA5121156B4600030213 /* MainViewController.swift in Sources */,
+				E529738021160A7C00F0AB64 /* LineLoadViewController.swift in Sources */,
+				E5CEBC6721163AD600B8CC90 /* VerticalStripLoadViewController.swift in Sources */,
+				E5603E512117764500FF84AA /* EmbankmentLoadViewController.swift in Sources */,
+				E5603E4F21174ABC00FF84AA /* ShadowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickjc1.Stress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,7 +399,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickjc1.Stress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
