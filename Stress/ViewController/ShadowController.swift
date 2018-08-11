@@ -8,7 +8,6 @@
 
 import UIKit
 import Foundation
-import ChameleonFramework
 
 struct Shadow {
     func makingShadow(to view: UIView) {

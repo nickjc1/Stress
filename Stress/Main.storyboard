@@ -27,7 +27,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X1y-Ql-rff" userLabel="pointLoading">
                                                 <rect key="frame" x="8" y="10" width="359" height="240"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Uc-aQ-2Lq">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="point load.JPG" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Uc-aQ-2Lq">
                                                         <rect key="frame" x="5" y="5" width="349" height="190"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="190" id="IWB-yz-4ZE"/>
@@ -246,7 +246,12 @@
                         <viewLayoutGuide key="safeArea" id="lHP-A7-sqr"/>
                     </view>
                     <navigationItem key="navigationItem" title="Soil Stress" id="Hi0-gd-JWj">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="Q5I-At-OdM"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="Oav-Z3-LKp"/>
+                        <barButtonItem key="rightBarButtonItem" title="Info" id="5Ta-hl-Vtn">
+                            <connections>
+                                <action selector="infoButtonPressed:" destination="F1N-33-Zme" id="kay-4L-AR2"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <size key="freeformSize" width="375" height="1700"/>
                     <connections>
@@ -262,6 +267,7 @@
                         <segue destination="oMS-cP-YIV" kind="show" identifier="goToPage4" id="43H-Oq-xQA"/>
                         <segue destination="2Ra-3b-Vgg" kind="show" identifier="goToPage5" id="bWt-44-EfY"/>
                         <segue destination="7bz-2N-bVt" kind="show" identifier="goToPage6" id="7ho-JS-fdm"/>
+                        <segue destination="EqR-t2-PbZ" kind="show" identifier="goToInfo" id="YoT-8y-SvN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8i-h3-U7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1337,7 +1343,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sQO-uk-HMi">
                                                 <rect key="frame" x="8" y="8" width="304" height="236"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="shd-Qb-ylQ">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="point load.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="shd-Qb-ylQ">
                                                         <rect key="frame" x="5" y="20" width="294" height="196"/>
                                                     </imageView>
                                                 </subviews>
@@ -1548,6 +1554,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="6KI-Rm-SxL">
                         <rect key="frame" x="0.0" y="20" width="320" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.564653933" green="0.45339596269999999" blue="0.35711643100000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="KohinoorTelugu-Medium" family="Kohinoor Telugu" pointSize="18"/>
@@ -1569,13 +1576,60 @@
             </objects>
             <point key="canvasLocation" x="1972" y="-1298"/>
         </scene>
+        <!--Infomation-->
+        <scene sceneID="pxd-4j-ZqJ">
+            <objects>
+                <viewController id="EqR-t2-PbZ" customClass="InfomationViewController" customModule="Stress" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VYk-wc-yt0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pv5-jX-w9t">
+                                <rect key="frame" x="8" y="72" width="304" height="488"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LyV-KR-Zrg">
+                                        <rect key="frame" x="4" y="4" width="296" height="480"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="LyV-KR-Zrg" firstAttribute="top" secondItem="Pv5-jX-w9t" secondAttribute="top" constant="4" id="UUT-74-YlV"/>
+                                    <constraint firstAttribute="trailing" secondItem="LyV-KR-Zrg" secondAttribute="trailing" constant="4" id="aob-Vl-2ga"/>
+                                    <constraint firstAttribute="bottom" secondItem="LyV-KR-Zrg" secondAttribute="bottom" constant="4" id="nd2-Gk-W5H"/>
+                                    <constraint firstItem="LyV-KR-Zrg" firstAttribute="leading" secondItem="Pv5-jX-w9t" secondAttribute="leading" constant="4" id="xPF-jI-Azk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="V8r-jP-HDy" firstAttribute="bottom" secondItem="Pv5-jX-w9t" secondAttribute="bottom" constant="8" id="EK8-wB-fc2"/>
+                            <constraint firstItem="Pv5-jX-w9t" firstAttribute="leading" secondItem="V8r-jP-HDy" secondAttribute="leading" constant="8" id="Mgx-Mi-0La"/>
+                            <constraint firstItem="Pv5-jX-w9t" firstAttribute="top" secondItem="V8r-jP-HDy" secondAttribute="top" constant="8" id="kzi-xP-5at"/>
+                            <constraint firstItem="V8r-jP-HDy" firstAttribute="trailing" secondItem="Pv5-jX-w9t" secondAttribute="trailing" constant="8" id="wJy-3w-1Yt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="V8r-jP-HDy"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Infomation" largeTitleDisplayMode="never" id="5OG-Wn-g7V"/>
+                    <connections>
+                        <outlet property="textView" destination="LyV-KR-Zrg" id="erY-BV-c1a"/>
+                        <outlet property="viewOfText" destination="Pv5-jX-w9t" id="npx-o3-dwi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fJR-H8-bKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3121.875" y="-1450.3521126760563"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="1" width="997" height="685"/>
         <image name="2" width="1300" height="1238"/>
         <image name="3" width="787" height="531"/>
         <image name="4" width="550" height="413"/>
         <image name="5" width="1080" height="764"/>
         <image name="6" width="1000" height="781"/>
+        <image name="point load.JPG" width="2732" height="2048"/>
     </resources>
 </document>

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ChameleonFramework
+
 
 class MainViewController: UIViewController {
     
@@ -53,5 +53,10 @@ class MainViewController: UIViewController {
     @objc func goToPage6() {
         performSegue(withIdentifier: "goToPage6", sender: self)
     }
+    
+    @IBAction func infoButtonPressed(_ sender: UIBarButtonItem) {
+        performSegue(withIdentifier: "goToInfo", sender: self)
+    }
+    
 
 }

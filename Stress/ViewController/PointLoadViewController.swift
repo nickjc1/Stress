@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import ChameleonFramework
 
 class PointLoadViewController: UIViewController {
     

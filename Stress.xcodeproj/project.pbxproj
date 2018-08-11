@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2371B8CAF68398DABDB6499 /* Pods_Stress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C3C2AD4B4C38A2673F258A /* Pods_Stress.framework */; };
+		CD07543BB4CCDC806CBFC4CD /* Pods_Stress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B347EDBCDD013491FCCAE4D /* Pods_Stress.framework */; };
 		DF79D2AB20FF8067007EB806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79D2AA20FF8067007EB806 /* AppDelegate.swift */; };
 		DF79D2B420FF8069007EB806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF79D2B320FF8069007EB806 /* Assets.xcassets */; };
 		DF79D2B720FF8069007EB806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF79D2B520FF8069007EB806 /* LaunchScreen.storyboard */; };
 		E529738021160A7C00F0AB64 /* LineLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */; };
 		E5603E4F21174ABC00FF84AA /* ShadowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5603E4E21174ABC00FF84AA /* ShadowController.swift */; };
 		E5603E512117764500FF84AA /* EmbankmentLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5603E502117764500FF84AA /* EmbankmentLoadViewController.swift */; };
+		E579A6FC211F398D0099B259 /* point load.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E579A6FB211F398D0099B259 /* point load.JPG */; };
 		E57E744021178D1A004CF685 /* CircularAreaLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57E743F21178D1A004CF685 /* CircularAreaLoadViewController.swift */; };
 		E57E74422117964F004CF685 /* RectangularlyCornerLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57E74412117964F004CF685 /* RectangularlyCornerLoadViewController.swift */; };
 		E5CDCF152112926500984D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CDCF142112926500984D39 /* Main.storyboard */; };
@@ -21,10 +22,13 @@
 		E5CEBC6721163AD600B8CC90 /* VerticalStripLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */; };
 		E5CFAA5121156B4600030213 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CFAA5021156B4600030213 /* MainViewController.swift */; };
 		E5D827D32113FFEF00E8C6F7 /* PointLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D827D22113FFEF00E8C6F7 /* PointLoadViewController.swift */; };
+		E5F307E3211F54A500C004B1 /* InfomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F307E2211F54A500C004B1 /* InfomationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		82D33C09FFC66A4FE8AABDE4 /* Pods-Stress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.release.xcconfig"; sourceTree = "<group>"; };
+		1E94B4382143B739E120178C /* Pods-Stress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.debug.xcconfig"; sourceTree = "<group>"; };
+		309AFE5163ECBBB0BDA2F292 /* Pods-Stress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.release.xcconfig"; sourceTree = "<group>"; };
+		6B347EDBCDD013491FCCAE4D /* Pods_Stress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF79D2A720FF8067007EB806 /* Stress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF79D2AA20FF8067007EB806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF79D2B320FF8069007EB806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +37,7 @@
 		E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLoadViewController.swift; sourceTree = "<group>"; };
 		E5603E4E21174ABC00FF84AA /* ShadowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowController.swift; sourceTree = "<group>"; };
 		E5603E502117764500FF84AA /* EmbankmentLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbankmentLoadViewController.swift; sourceTree = "<group>"; };
+		E579A6FB211F398D0099B259 /* point load.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "point load.JPG"; sourceTree = "<group>"; };
 		E57E743F21178D1A004CF685 /* CircularAreaLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularAreaLoadViewController.swift; sourceTree = "<group>"; };
 		E57E74412117964F004CF685 /* RectangularlyCornerLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularlyCornerLoadViewController.swift; sourceTree = "<group>"; };
 		E5CDCF142112926500984D39 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -40,8 +45,7 @@
 		E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStripLoadViewController.swift; sourceTree = "<group>"; };
 		E5CFAA5021156B4600030213 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E5D827D22113FFEF00E8C6F7 /* PointLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointLoadViewController.swift; sourceTree = "<group>"; };
-		F7C3C2AD4B4C38A2673F258A /* Pods_Stress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAEAD71F58896EA4E5D3B7B6 /* Pods-Stress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F307E2211F54A500C004B1 /* InfomationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,28 +53,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2371B8CAF68398DABDB6499 /* Pods_Stress.framework in Frameworks */,
+				CD07543BB4CCDC806CBFC4CD /* Pods_Stress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F59F2C9B958F9D38AD21147 /* Pods */ = {
+		B32C997EBF65E8AB699227C2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FAEAD71F58896EA4E5D3B7B6 /* Pods-Stress.debug.xcconfig */,
-				82D33C09FFC66A4FE8AABDE4 /* Pods-Stress.release.xcconfig */,
+				1E94B4382143B739E120178C /* Pods-Stress.debug.xcconfig */,
+				309AFE5163ECBBB0BDA2F292 /* Pods-Stress.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		CDE76438C84C65FFA3E1811A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F7C3C2AD4B4C38A2673F258A /* Pods_Stress.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DF79D29E20FF8067007EB806 = {
@@ -78,8 +74,8 @@
 			children = (
 				DF79D2A920FF8067007EB806 /* Stress */,
 				DF79D2A820FF8067007EB806 /* Products */,
-				9F59F2C9B958F9D38AD21147 /* Pods */,
-				CDE76438C84C65FFA3E1811A /* Frameworks */,
+				B32C997EBF65E8AB699227C2 /* Pods */,
+				F840B0C444705CF0831EC8EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				E5CFAA5021156B4600030213 /* MainViewController.swift */,
+				E5F307E2211F54A500C004B1 /* InfomationViewController.swift */,
 				E5D827D22113FFEF00E8C6F7 /* PointLoadViewController.swift */,
 				E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */,
 				E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */,
@@ -124,8 +121,17 @@
 		E57E743E21178954004CF685 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				E579A6FB211F398D0099B259 /* point load.JPG */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		F840B0C444705CF0831EC8EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B347EDBCDD013491FCCAE4D /* Pods_Stress.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,11 +141,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF79D2BB20FF8069007EB806 /* Build configuration list for PBXNativeTarget "Stress" */;
 			buildPhases = (
-				37BE6A3795F2B07BFD094F61 /* [CP] Check Pods Manifest.lock */,
+				1DB31F0196EFBC9C8FB396CA /* [CP] Check Pods Manifest.lock */,
 				DF79D2A320FF8067007EB806 /* Sources */,
 				DF79D2A420FF8067007EB806 /* Frameworks */,
 				DF79D2A520FF8067007EB806 /* Resources */,
-				8C6759B6A4DAE503B95F9B5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,13 +196,14 @@
 				E5CDCF152112926500984D39 /* Main.storyboard in Resources */,
 				DF79D2B720FF8069007EB806 /* LaunchScreen.storyboard in Resources */,
 				DF79D2B420FF8069007EB806 /* Assets.xcassets in Resources */,
+				E579A6FC211F398D0099B259 /* point load.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		37BE6A3795F2B07BFD094F61 /* [CP] Check Pods Manifest.lock */ = {
+		1DB31F0196EFBC9C8FB396CA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,24 +221,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8C6759B6A4DAE503B95F9B5A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Stress/Pods-Stress-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stress/Pods-Stress-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -241,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5D827D32113FFEF00E8C6F7 /* PointLoadViewController.swift in Sources */,
+				E5F307E3211F54A500C004B1 /* InfomationViewController.swift in Sources */,
 				DF79D2AB20FF8067007EB806 /* AppDelegate.swift in Sources */,
 				E57E744021178D1A004CF685 /* CircularAreaLoadViewController.swift in Sources */,
 				E5CDCF17211292E400984D39 /* StressFunctions.swift in Sources */,
@@ -383,7 +372,7 @@
 		};
 		DF79D2BC20FF8069007EB806 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAEAD71F58896EA4E5D3B7B6 /* Pods-Stress.debug.xcconfig */;
+			baseConfigurationReference = 1E94B4382143B739E120178C /* Pods-Stress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -402,7 +391,7 @@
 		};
 		DF79D2BD20FF8069007EB806 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82D33C09FFC66A4FE8AABDE4 /* Pods-Stress.release.xcconfig */;
+			baseConfigurationReference = 309AFE5163ECBBB0BDA2F292 /* Pods-Stress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
