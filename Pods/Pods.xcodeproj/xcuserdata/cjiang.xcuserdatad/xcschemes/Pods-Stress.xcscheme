@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "76BD4592010354D6C23D6ECCA20D83A8"
-               BuildableName = "ChameleonFramework.framework"
-               BlueprintName = "ChameleonFramework"
+               BlueprintIdentifier = "42FFEFD5CED8517FF9D56C3BDB974AE2"
+               BuildableName = "Pods_Stress.framework"
+               BlueprintName = "Pods-Stress"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DF79D2A620FF8067007EB806"
+            BuildableName = "Stress.app"
+            BlueprintName = "Stress"
+            ReferencedContainer = "container:../Stress.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "76BD4592010354D6C23D6ECCA20D83A8"
-            BuildableName = "ChameleonFramework.framework"
-            BlueprintName = "ChameleonFramework"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "DF79D2A620FF8067007EB806"
+            BuildableName = "Stress.app"
+            BlueprintName = "Stress"
+            ReferencedContainer = "container:../Stress.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,6 +70,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "42FFEFD5CED8517FF9D56C3BDB974AE2"
+            BuildableName = "Pods_Stress.framework"
+            BlueprintName = "Pods-Stress"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

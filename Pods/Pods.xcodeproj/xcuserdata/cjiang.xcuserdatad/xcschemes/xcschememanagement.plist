@@ -4,15 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Stress.xcscheme</key>
+		<key>ChameleonFramework.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-Stress.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DF79D2A620FF8067007EB806</key>
+		<key>42FFEFD5CED8517FF9D56C3BDB974AE2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
