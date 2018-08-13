@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CD07543BB4CCDC806CBFC4CD /* Pods_Stress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B347EDBCDD013491FCCAE4D /* Pods_Stress.framework */; };
+		DF79C378212224B900EDDCAB /* verticalLine.png in Resources */ = {isa = PBXBuildFile; fileRef = DF79C376212224B400EDDCAB /* verticalLine.png */; };
+		DF79C379212224B900EDDCAB /* verticalStrip.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DF79C377212224B600EDDCAB /* verticalStrip.JPG */; };
 		DF79D2AB20FF8067007EB806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79D2AA20FF8067007EB806 /* AppDelegate.swift */; };
 		DF79D2B420FF8069007EB806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF79D2B320FF8069007EB806 /* Assets.xcassets */; };
 		DF79D2B720FF8069007EB806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF79D2B520FF8069007EB806 /* LaunchScreen.storyboard */; };
-		E50B17C62120A2E70054DBFB /* vertical Strip.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E50B17C02120A2E40054DBFB /* vertical Strip.JPG */; };
 		E50B17C72120A2E70054DBFB /* rech.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E50B17C12120A2E50054DBFB /* rech.JPG */; };
 		E50B17C82120A2E70054DBFB /* circular.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E50B17C22120A2E50054DBFB /* circular.JPG */; };
 		E50B17C92120A2E70054DBFB /* embankment.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E50B17C32120A2E60054DBFB /* embankment.JPG */; };
@@ -26,7 +27,6 @@
 		E5CEBC6721163AD600B8CC90 /* VerticalStripLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */; };
 		E5CFAA5121156B4600030213 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CFAA5021156B4600030213 /* MainViewController.swift */; };
 		E5D827D32113FFEF00E8C6F7 /* PointLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D827D22113FFEF00E8C6F7 /* PointLoadViewController.swift */; };
-		E5EE3EB4212113BD00335F81 /* vertical Line.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EE3EB3212113BD00335F81 /* vertical Line.png */; };
 		E5F307E3211F54A500C004B1 /* InfomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F307E2211F54A500C004B1 /* InfomationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,12 +34,13 @@
 		1E94B4382143B739E120178C /* Pods-Stress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.debug.xcconfig"; sourceTree = "<group>"; };
 		309AFE5163ECBBB0BDA2F292 /* Pods-Stress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.release.xcconfig"; sourceTree = "<group>"; };
 		6B347EDBCDD013491FCCAE4D /* Pods_Stress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF79C376212224B400EDDCAB /* verticalLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verticalLine.png; sourceTree = "<group>"; };
+		DF79C377212224B600EDDCAB /* verticalStrip.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = verticalStrip.JPG; sourceTree = "<group>"; };
 		DF79D2A720FF8067007EB806 /* Stress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF79D2AA20FF8067007EB806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF79D2B320FF8069007EB806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF79D2B620FF8069007EB806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF79D2B820FF8069007EB806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E50B17C02120A2E40054DBFB /* vertical Strip.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vertical Strip.JPG"; sourceTree = "<group>"; };
 		E50B17C12120A2E50054DBFB /* rech.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rech.JPG; sourceTree = "<group>"; };
 		E50B17C22120A2E50054DBFB /* circular.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = circular.JPG; sourceTree = "<group>"; };
 		E50B17C32120A2E60054DBFB /* embankment.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = embankment.JPG; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		E5CEBC6621163AD600B8CC90 /* VerticalStripLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStripLoadViewController.swift; sourceTree = "<group>"; };
 		E5CFAA5021156B4600030213 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E5D827D22113FFEF00E8C6F7 /* PointLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointLoadViewController.swift; sourceTree = "<group>"; };
-		E5EE3EB3212113BD00335F81 /* vertical Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vertical Line.png"; sourceTree = "<group>"; };
 		E5F307E2211F54A500C004B1 /* InfomationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,12 +131,12 @@
 		E57E743E21178954004CF685 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				E5EE3EB3212113BD00335F81 /* vertical Line.png */,
+				DF79C376212224B400EDDCAB /* verticalLine.png */,
+				DF79C377212224B600EDDCAB /* verticalStrip.JPG */,
 				E50B17C22120A2E50054DBFB /* circular.JPG */,
 				E50B17C32120A2E60054DBFB /* embankment.JPG */,
 				E50B17C42120A2E70054DBFB /* point.JPG */,
 				E50B17C12120A2E50054DBFB /* rech.JPG */,
-				E50B17C02120A2E40054DBFB /* vertical Strip.JPG */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -208,14 +208,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E50B17C62120A2E70054DBFB /* vertical Strip.JPG in Resources */,
-				E5EE3EB4212113BD00335F81 /* vertical Line.png in Resources */,
+				DF79C378212224B900EDDCAB /* verticalLine.png in Resources */,
 				E5CDCF152112926500984D39 /* Main.storyboard in Resources */,
 				DF79D2B720FF8069007EB806 /* LaunchScreen.storyboard in Resources */,
 				E50B17C72120A2E70054DBFB /* rech.JPG in Resources */,
 				E50B17CA2120A2E70054DBFB /* point.JPG in Resources */,
 				E50B17C82120A2E70054DBFB /* circular.JPG in Resources */,
 				DF79D2B420FF8069007EB806 /* Assets.xcassets in Resources */,
+				DF79C379212224B900EDDCAB /* verticalStrip.JPG in Resources */,
 				E50B17C92120A2E70054DBFB /* embankment.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
