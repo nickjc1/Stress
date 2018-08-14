@@ -27,7 +27,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X1y-Ql-rff" userLabel="pointLoading">
                                                 <rect key="frame" x="8" y="10" width="359" height="240"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="point.JPG" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Uc-aQ-2Lq">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="point.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Uc-aQ-2Lq">
                                                         <rect key="frame" x="5" y="5" width="349" height="190"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="190" id="IWB-yz-4ZE"/>
@@ -83,7 +83,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eCZ-l0-0Yq" userLabel="VerticalStripLoading">
                                                 <rect key="frame" x="8" y="510" width="359" height="240"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verticalStrip.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="6Xn-my-czK">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verticalStrip.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Xn-my-czK">
                                                         <rect key="frame" x="5" y="5" width="349" height="190"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="190" id="jke-bw-awS"/>
@@ -111,7 +111,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dBu-Hs-4uq" userLabel="Embankment Loading">
                                                 <rect key="frame" x="8" y="760" width="359" height="240"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="embankment.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="qo1-to-tp9">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="embankment.png" translatesAutoresizingMaskIntoConstraints="NO" id="qo1-to-tp9">
                                                         <rect key="frame" x="5" y="5" width="349" height="190"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="190" id="24f-ws-ceG"/>
@@ -139,7 +139,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KmG-nN-0GO" userLabel="CircularAreaLoading">
                                                 <rect key="frame" x="8" y="1010" width="359" height="240"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circular.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="QYI-s6-7qQ">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circular.png" translatesAutoresizingMaskIntoConstraints="NO" id="QYI-s6-7qQ">
                                                         <rect key="frame" x="5" y="5" width="349" height="190"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="190" id="8V1-gT-hrg"/>
@@ -168,7 +168,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ToG-HP-28Q" userLabel="RectangularlyLoading">
                                                 <rect key="frame" x="8" y="1260" width="359" height="240"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rech.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="0fe-rC-OUY">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rech.png" translatesAutoresizingMaskIntoConstraints="NO" id="0fe-rC-OUY">
                                                         <rect key="frame" x="5" y="5" width="349" height="190"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="190" id="lMe-oT-Urz"/>
@@ -291,7 +291,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y7K-B8-JIY">
                                                 <rect key="frame" x="8" y="8" width="304" height="236"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verticalStrip.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="Bzk-Ue-nJi">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verticalStrip.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bzk-Ue-nJi">
                                                         <rect key="frame" x="5" y="20" width="294" height="196"/>
                                                     </imageView>
                                                 </subviews>
@@ -515,7 +515,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uLT-mh-A3R">
                                                 <rect key="frame" x="8" y="8" width="304" height="236"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="embankment.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="7jL-5s-wCR">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="embankment.png" translatesAutoresizingMaskIntoConstraints="NO" id="7jL-5s-wCR">
                                                         <rect key="frame" x="5" y="20" width="294" height="196"/>
                                                     </imageView>
                                                 </subviews>
@@ -730,7 +730,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHo-HP-cN8">
                                                 <rect key="frame" x="8" y="8" width="304" height="236"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circular.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="fgr-63-GaF">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circular.png" translatesAutoresizingMaskIntoConstraints="NO" id="fgr-63-GaF">
                                                         <rect key="frame" x="5" y="20" width="294" height="196"/>
                                                     </imageView>
                                                 </subviews>
@@ -925,7 +925,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xx8-Fd-221">
                                                 <rect key="frame" x="8" y="8" width="304" height="236"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rech.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="yOI-YF-vHE">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rech.png" translatesAutoresizingMaskIntoConstraints="NO" id="yOI-YF-vHE">
                                                         <rect key="frame" x="5" y="20" width="294" height="196"/>
                                                     </imageView>
                                                 </subviews>
@@ -1343,7 +1343,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sQO-uk-HMi">
                                                 <rect key="frame" x="8" y="8" width="304" height="236"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="point.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="shd-Qb-ylQ">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="point.png" translatesAutoresizingMaskIntoConstraints="NO" id="shd-Qb-ylQ">
                                                         <rect key="frame" x="5" y="20" width="294" height="196"/>
                                                     </imageView>
                                                 </subviews>
@@ -1590,7 +1590,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LyV-KR-Zrg">
                                         <rect key="frame" x="4" y="4" width="296" height="480"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1625,11 +1625,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="circular.JPG" width="2732" height="2048"/>
-        <image name="embankment.JPG" width="2732" height="2048"/>
-        <image name="point.JPG" width="2732" height="2048"/>
-        <image name="rech.JPG" width="2732" height="2048"/>
+        <image name="circular.png" width="2224" height="1668"/>
+        <image name="embankment.png" width="2224" height="1668"/>
+        <image name="point.png" width="2224" height="1668"/>
+        <image name="rech.png" width="2224" height="1668"/>
         <image name="verticalLine.png" width="2224" height="1668"/>
-        <image name="verticalStrip.JPG" width="2732" height="2048"/>
+        <image name="verticalStrip.png" width="2224" height="1668"/>
     </resources>
 </document>
