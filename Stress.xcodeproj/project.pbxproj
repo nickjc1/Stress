@@ -17,6 +17,7 @@
 		DF79D2AB20FF8067007EB806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79D2AA20FF8067007EB806 /* AppDelegate.swift */; };
 		DF79D2B420FF8069007EB806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF79D2B320FF8069007EB806 /* Assets.xcassets */; };
 		DF79D2B720FF8069007EB806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF79D2B520FF8069007EB806 /* LaunchScreen.storyboard */; };
+		DFFE029821235A6A00A47DDF /* info.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFFE029721235A6A00A47DDF /* info.jpg */; };
 		E529738021160A7C00F0AB64 /* LineLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */; };
 		E5603E4F21174ABC00FF84AA /* ShadowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5603E4E21174ABC00FF84AA /* ShadowController.swift */; };
 		E5603E512117764500FF84AA /* EmbankmentLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5603E502117764500FF84AA /* EmbankmentLoadViewController.swift */; };
@@ -45,6 +46,7 @@
 		DF79D2B320FF8069007EB806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF79D2B620FF8069007EB806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF79D2B820FF8069007EB806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFE029721235A6A00A47DDF /* info.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = info.jpg; sourceTree = "<group>"; };
 		E529737F21160A7C00F0AB64 /* LineLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLoadViewController.swift; sourceTree = "<group>"; };
 		E5603E4E21174ABC00FF84AA /* ShadowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowController.swift; sourceTree = "<group>"; };
 		E5603E502117764500FF84AA /* EmbankmentLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbankmentLoadViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		E57E743E21178954004CF685 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				DFFE029721235A6A00A47DDF /* info.jpg */,
 				DF4A755D21231B6300CB5F79 /* circular.png */,
 				DF4A756021231B6600CB5F79 /* embankment.png */,
 				DF4A756121231B6700CB5F79 /* point.png */,
@@ -215,6 +218,7 @@
 				DF4A756321231B6700CB5F79 /* circular.png in Resources */,
 				DF4A756721231B6700CB5F79 /* point.png in Resources */,
 				DF79D2B420FF8069007EB806 /* Assets.xcassets in Resources */,
+				DFFE029821235A6A00A47DDF /* info.jpg in Resources */,
 				DF4A756421231B6700CB5F79 /* verticalLine.png in Resources */,
 				DF4A756521231B6700CB5F79 /* rech.png in Resources */,
 			);

@@ -1587,20 +1587,16 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pv5-jX-w9t">
                                 <rect key="frame" x="8" y="72" width="304" height="488"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LyV-KR-Zrg">
-                                        <rect key="frame" x="4" y="4" width="296" height="480"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hTN-wo-dqH">
+                                        <rect key="frame" x="2" y="2" width="300" height="484"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="LyV-KR-Zrg" firstAttribute="top" secondItem="Pv5-jX-w9t" secondAttribute="top" constant="4" id="UUT-74-YlV"/>
-                                    <constraint firstAttribute="trailing" secondItem="LyV-KR-Zrg" secondAttribute="trailing" constant="4" id="aob-Vl-2ga"/>
-                                    <constraint firstAttribute="bottom" secondItem="LyV-KR-Zrg" secondAttribute="bottom" constant="4" id="nd2-Gk-W5H"/>
-                                    <constraint firstItem="LyV-KR-Zrg" firstAttribute="leading" secondItem="Pv5-jX-w9t" secondAttribute="leading" constant="4" id="xPF-jI-Azk"/>
+                                    <constraint firstAttribute="trailing" secondItem="hTN-wo-dqH" secondAttribute="trailing" constant="2" id="CIA-Cy-lIA"/>
+                                    <constraint firstItem="hTN-wo-dqH" firstAttribute="leading" secondItem="Pv5-jX-w9t" secondAttribute="leading" constant="2" id="IhW-Yk-iF0"/>
+                                    <constraint firstAttribute="bottom" secondItem="hTN-wo-dqH" secondAttribute="bottom" constant="2" id="MfY-Ap-w0h"/>
+                                    <constraint firstItem="hTN-wo-dqH" firstAttribute="top" secondItem="Pv5-jX-w9t" secondAttribute="top" constant="2" id="sz8-hs-7cE"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1615,8 +1611,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Infomation" largeTitleDisplayMode="never" id="5OG-Wn-g7V"/>
                     <connections>
-                        <outlet property="textView" destination="LyV-KR-Zrg" id="erY-BV-c1a"/>
-                        <outlet property="viewOfText" destination="Pv5-jX-w9t" id="npx-o3-dwi"/>
+                        <outlet property="viewOfText" destination="Pv5-jX-w9t" id="nph-Y3-wL7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fJR-H8-bKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1627,6 +1622,7 @@
     <resources>
         <image name="circular.png" width="2224" height="1668"/>
         <image name="embankment.png" width="2224" height="1668"/>
+        <image name="info.jpg" width="2040" height="2640"/>
         <image name="point.png" width="2224" height="1668"/>
         <image name="rech.png" width="2224" height="1668"/>
         <image name="verticalLine.png" width="2224" height="1668"/>

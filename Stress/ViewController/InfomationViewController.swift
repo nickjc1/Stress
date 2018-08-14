@@ -7,10 +7,10 @@
 //
 
 import UIKit
+import WebKit
 
 class InfomationViewController: UIViewController {
     @IBOutlet weak var viewOfText: UIView!
-    @IBOutlet weak var textView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,6 @@ class InfomationViewController: UIViewController {
         shadow?.makingShadow(to: viewOfText)
         shadow = nil
         
-        textView.isEditable = false
     }
+    
 }
