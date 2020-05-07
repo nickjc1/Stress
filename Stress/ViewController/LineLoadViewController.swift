@@ -63,7 +63,7 @@ class LineLoadViewController: UIViewController {
 }
 
 extension LineLoadViewController: UITextFieldDelegate {
-    func textFieldDidEndEditing(_ textField: UITextField, reason: UITextFieldDidEndEditingReason) {
+    func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {
         var canEnableSubmitButton = true
         for textField in textFields {
             canEnableSubmitButton = canEnableSubmitButton && (textField.text != "")
