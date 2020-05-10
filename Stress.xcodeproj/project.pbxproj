@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD07543BB4CCDC806CBFC4CD /* Pods_Stress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B347EDBCDD013491FCCAE4D /* Pods_Stress.framework */; };
+		DF06CE7B246866590087BA68 /* Appicon.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DF06CE7A246866590087BA68 /* Appicon.JPG */; };
 		DF4A756221231B6700CB5F79 /* verticalStrip.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4A755C21231B6300CB5F79 /* verticalStrip.png */; };
 		DF4A756321231B6700CB5F79 /* circular.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4A755D21231B6300CB5F79 /* circular.png */; };
 		DF4A756421231B6700CB5F79 /* verticalLine.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4A755E21231B6400CB5F79 /* verticalLine.png */; };
@@ -35,6 +36,7 @@
 		1E94B4382143B739E120178C /* Pods-Stress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.debug.xcconfig"; sourceTree = "<group>"; };
 		309AFE5163ECBBB0BDA2F292 /* Pods-Stress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.release.xcconfig"; sourceTree = "<group>"; };
 		6B347EDBCDD013491FCCAE4D /* Pods_Stress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF06CE7A246866590087BA68 /* Appicon.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Appicon.JPG; sourceTree = "<group>"; };
 		DF4A755C21231B6300CB5F79 /* verticalStrip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verticalStrip.png; sourceTree = "<group>"; };
 		DF4A755D21231B6300CB5F79 /* circular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circular.png; sourceTree = "<group>"; };
 		DF4A755E21231B6400CB5F79 /* verticalLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verticalLine.png; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		E57E743E21178954004CF685 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				DF06CE7A246866590087BA68 /* Appicon.JPG */,
 				DFFE029721235A6A00A47DDF /* info.jpg */,
 				DF4A755D21231B6300CB5F79 /* circular.png */,
 				DF4A756021231B6600CB5F79 /* embankment.png */,
@@ -221,6 +224,7 @@
 				DF79D2B420FF8069007EB806 /* Assets.xcassets in Resources */,
 				DFFE029821235A6A00A47DDF /* info.jpg in Resources */,
 				DF4A756421231B6700CB5F79 /* verticalLine.png in Resources */,
+				DF06CE7B246866590087BA68 /* Appicon.JPG in Resources */,
 				DF4A756521231B6700CB5F79 /* rech.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
